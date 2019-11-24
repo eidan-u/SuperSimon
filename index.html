@@ -1,0 +1,30 @@
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <div class="bouton" onclick="Simon()" >
+        <div class="bleu" onclick="blue()"></div>
+        <div class="jaune"  onclick="yellow()"></div>
+    </div>
+    <div  class="bouton"  onclick="Simon()" >
+        <div class="vert"  onclick="green()"></div>
+        <div class="rouge"  onclick="red()"></div>
+    </div>
+    <br>
+    <div class="commandes">
+        <button class="start" onclick="start()">start</button>
+        <button onclick="restart()" class="retart">restart</button>
+        <button onclick="rulesOn()" class="rules">rules</button>
+    </div>
+    <div class="ClickList"></div>
+        <br>
+    <div class="regles">
+            <span onclick="rulesOff()" class="close">&times;</span>
+            <img src="p1.jpg">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

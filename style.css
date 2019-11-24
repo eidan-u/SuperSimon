@@ -1,0 +1,81 @@
+body {
+    background: rgb(255, 100, 247);
+}
+
+.bouton {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.bleu {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 180px 0 0 0;
+
+
+}
+
+.jaune {
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 180px 0 0;
+}
+
+.vert {
+    background: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 0 180px;
+
+
+}
+
+.rouge {
+    background: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 180px 0;
+
+}
+
+.regles {
+    display: none;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+
+
+}
+
+.close {
+    border-radius: 180px;
+    color: white;
+    border: 0;
+    font-size: 50px;
+    top: 0%;
+    right: 0%;
+    position: absolute;
+}
+
+.ClickList {
+    width: 50px;
+    height: 30px;
+    background: rgb(7, 14, 1);
+    color: red;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.commandes {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+}
