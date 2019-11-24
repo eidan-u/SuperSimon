@@ -5,7 +5,7 @@ let $bleu = document.querySelector('.bleu');
 let $jaune = document.querySelector('.jaune');
 let $vert = document.querySelector('.vert');
 let $rules = document.querySelector('.regles');
-let $player = [];
+let $player = [1];
 let $victoire = false;
 let $clique = document.querySelector('.clickList');
 let $do = new Audio('sound/do.wav');
@@ -99,29 +99,30 @@ function start() {
     console.log('à vous de jouer!');
 
     //on créé un evenement qui permet de rajouter une section au tableau du joueur
-
+if (i = 1) 
     $bleu.addEventListener('click', function ChangeTab1() {
         $player.push(1)
-        console.log($player)
+        console.log($player);
     });
     $rouge.addEventListener('click', function ChangeTab2() {
         $player.push(4)
-        console.log($player)
+        console.log($player);
     });
     $jaune.addEventListener('click', function ChangeTab3() {
         $player.push(2)
-        console.log($player)
+        console.log($player);
     });
     $vert.addEventListener('click', function ChangeTab4() {
         $player.push(3)
-        console.log($player)
+        console.log($player);
     });
 
     if ($player == $compte) {
         console.log('vous avez gagné');
     } else {
-        console.log('vous avez perdu')
+        console.log('vous avez perdu');
     }
+
 }
 
 //appuyer sur le restart permet de reboot les deux tableaux ainsi que le nombre de cliques
